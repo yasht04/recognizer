@@ -33,17 +33,6 @@ SignSpeak is an AI-powered application that translates sign language gestures in
 - OpenCV for computer vision
 - MediaPipe for hand detection
 
-## Project Structure
-
-```
-signspeak/
-├── frontend/          # React application
-├── backend/           # FastAPI server
-├── ml-models/         # Machine learning models
-├── docs/              # Documentation
-└── docker/            # Docker configurations
-```
-
 ## Current Status
 
 This project is in early development. We're currently working on:
@@ -65,7 +54,7 @@ This project is in early development. We're currently working on:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/signspeak.git
+   git clone https://github.com/yasht04/signspeak.git
    cd signspeak
    ```
 
@@ -84,12 +73,6 @@ This project is in early development. We're currently working on:
    pip install -r requirements.txt
    uvicorn app.main:app --reload
    ```
-
-4. **Access the application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:8000
-   - API Documentation: http://localhost:8000/docs
-
 ## Contributing
 
 This project is in early development. We welcome contributions, ideas, and feedback!
@@ -123,24 +106,9 @@ This project is in early development. We welcome contributions, ideas, and feedb
 - Performance optimization
 - Advanced features
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - MediaPipe by Google for hand detection
 - OpenCV community for computer vision tools
 - TensorFlow team for ML framework
 - All contributors and supporters
-
-## Contact
-
-- **Project Link:** [https://github.com/yourusername/signspeak](https://github.com/yourusername/signspeak)
-- **Issues:** [https://github.com/yourusername/signspeak/issues](https://github.com/yourusername/signspeak/issues)
-
----
-
-**Note:** This is a work-in-progress project. Features and documentation will be updated as development continues.
-
-⭐ **Star this repo if you're interested in following the development!**
